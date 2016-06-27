@@ -1,0 +1,312 @@
+body 
+	margin 0 auto
+	font-family 'PT Sans', sans-serif
+
+.my-flex-container
+	display flex
+	flex-direction row
+	justify-content center
+	align-items flex-start
+	flex-wrap nowrap
+
+.my-flex-stocks
+	flex-basis 250px
+	text-align center
+	flex-direction column
+	justify-content flex-start
+	align-items center
+	background-color #222428
+	height 706px
+    
+
+	&_logo 
+		background-color #21ce99
+		border-bottom 1px solid white
+
+	&_list
+		background-color #222428
+		margin-top -15px
+		white-space nowrap
+
+		ul
+			margin-left -15px
+
+		li 
+			list-style-type none
+			text-align left
+
+
+		a
+			color white
+			text-decoration none
+			font-size 24px
+			line-height 2.2
+
+	img
+		width 27%
+		margin 5px
+
+.my-flex-market
+	flex-basis 375px
+	margin-left 1px    		
+
+	&_search 
+		
+		&_field
+			height 80px
+			width 375px
+			text-decoration none
+			outline none
+			font-family 'PT Sans', sans-serif
+			font-size 20px
+			text-align center
+			background-color #222428
+		form
+			
+			input 
+				color white
+				border none
+	&_list
+		background-color #222428
+		color white
+		margin-top 1px
+	
+		&_content
+			display inline-block
+
+
+	&_list_content
+		display flex
+		flex-direction row
+		justify-content center
+		align-items flex-start
+		flex-wrap nowrap
+		border-bottom 1px solid white
+
+		img
+			padding-top 5px
+
+		&_name
+			flex-grow 1
+
+			&_title
+				padding-left 20px
+				margin-top -10px
+				
+			&_subtitle
+				padding-left 20px
+				margin-top -20px
+				font-size 13px
+
+		&_schedule
+			flex-grow 1
+			text-align center
+
+		&_btn
+			flex-grow 1
+			text-align center
+
+			$_green
+				background-color #21ce99
+
+			&_red
+				background-color red
+
+			button
+				border none
+				border-radius 5px
+				height 30px
+				width 75px
+				margin-top 16px
+				background-color #21ce99
+				color white
+
+				&:hover
+					cursor pointer
+					outline none
+
+.my-flex-content
+	flex-basis 800px
+	background-color #090d16
+	border-left 1px solid white
+	height 706px
+
+
+	&_close
+		height 35px
+
+		img
+			float right
+			width 30px
+			margin-top 5px
+			margin-right 5px
+
+	&_cash
+		color white
+		font-size 30px
+
+		h3
+			padding-left 20px
+			margin 0
+			font-weight 100
+
+	&_info
+		display flex
+		flex-direction row
+		justify-content flex-start
+		align-items flex-start
+		flex-wrap nowrap
+		color white
+		
+		&_stats
+			flex-grow 1
+			line-height 0.23
+
+			p
+				padding-left 20px
+				font-size 12px
+				color gray
+
+			span
+				color #21ce99
+
+		&_name
+			flex-grow 1
+			line-height 0.23
+			text-align right
+			padding-right 20px
+
+			p
+				font-size 12px
+				color gray
+
+			span
+				font-size 14px
+				color white
+
+	&_schedule
+
+		&_img 
+			text-align center
+			padding-top 10px
+
+			img
+				width 48%
+
+	&_slider
+		display flex
+		flex-direction row
+		justify-content flex-start
+		align-items flex-start
+		flex-wrap nowrap
+		color white
+
+		&_day, &_week, &_month, &_months, &_year, &_all
+			flex-grow 1
+			padding-top 10px
+			text-align center
+
+			a
+				color #21ce99
+				text-decoration none
+
+		&_none
+			flex-grow 3
+
+	&_information
+		display flex
+		flex-direction row
+		justify-content flex-start
+		align-items flex-start
+		flex-wrap nowrap
+		color white
+		border-top 1px solid grey
+		border-bottom 1px solid grey
+		margin-top 15px
+		padding-bottom 15px
+
+
+		p
+			font-size 13px
+
+		span
+			color grey
+
+		&_stats
+			flex-grow 1
+			padding-left 50px
+			line-height 0.23
+
+			&_wrapper
+				display flex
+				flex-direction row
+				justify-content flex-start
+				align-items flex-start
+				flex-wrap nowrap
+
+			&_left
+				flex-grow 1
+				margin-right 30px
+    			
+
+				&_wrapper
+					display flex
+					flex-direction row
+					justify-content flex-start
+					align-items flex-start
+					flex-wrap nowrap
+					border-bottom 1px solid grey
+
+					&_l
+						flex-grow 1
+
+					&_r
+						flex-grow 1
+						text-align right
+
+			&_right
+				flex-grow 1
+
+		&_about
+			flex-grow 1
+			padding-left 80px
+
+			h3
+				line-height 0.23
+
+			&_header a 
+				text-decoration none
+				color #21ce99
+
+		&_form
+			float right
+			display inline-block
+
+			&_buttons
+				justify-content flex-end
+				float right
+				margin-right 50px
+				margin-top 14px
+
+				&_sell, &_buy
+					width 100px
+					
+					background-color #21ce99
+					border-radius 5px
+					text-align center
+					float left
+					margin-left 20px
+					
+
+				a
+					text-decoration none
+					color white
+					display block
+					height 40px
+					display inline-block
+					vertical-align middle
+
+				p
+					vertical-align middle
+					font-size 17px
+					margin-top 10px

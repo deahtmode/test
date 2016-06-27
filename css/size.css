@@ -1,0 +1,42 @@
+@media (min-width: 400px) {
+
+  .my-flex-content_information_stats {
+  	padding-left: 10px;
+  	width: 100%;
+  }
+
+  .my-flex-content_information_about {
+  	padding-left: 15px;
+  }
+  .my-flex-content_information_form_buttons {
+  	margin-top: 32px;
+  	margin-right: 20px;
+  }
+  .my-flex-stocks_list ul {
+    margin-left: -25px;
+  }
+  .my-flex-stocks_list li {
+  	margin-right: 10px;
+  }
+  .my-flex-content_information {
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	align-items: baseline;
+  }
+  .my-flex-content_information_stats_left {
+  	width: 50%;
+  }
+  .my-flex-content_information_stats_right {
+  	width: 50%;
+  	margin-right: 25px;
+  }
+  .my-flex-market {
+  	flex-basis: 320px;
+  }
+  .my-flex-content_information_form {
+  	margin-top: -80px;
+  }
+  .my-flex-content_information_about_content_text p {
+  	padding-right: 20px;
+  }
+}

@@ -1,0 +1,309 @@
+body {
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+}
+.my-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.my-flex-stocks {
+  flex-basis: 250px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #222428;
+  height: 706px;
+}
+.my-flex-stocks_logo {
+  background-color: #21ce99;
+  border-bottom: 1px solid #fff;
+}
+.my-flex-stocks_list {
+  background-color: #222428;
+  margin-top: -15px;
+  white-space: nowrap;
+}
+.my-flex-stocks_list ul {
+  margin-left: -15px;
+}
+.my-flex-stocks_list li {
+  list-style-type: none;
+  text-align: left;
+}
+.my-flex-stocks_list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 2.2;
+}
+.my-flex-stocks img {
+  width: 27%;
+  margin: 5px;
+}
+.my-flex-market {
+  flex-basis: 375px;
+  margin-left: 1px;
+}
+.my-flex-market_search_field {
+  height: 80px;
+  width: 375px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #222428;
+}
+.my-flex-market_search form input {
+  color: #fff;
+  border: none;
+}
+.my-flex-market_list {
+  background-color: #222428;
+  color: #fff;
+  margin-top: 1px;
+}
+.my-flex-market_list_content {
+  display: inline-block;
+}
+.my-flex-market_list_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #fff;
+}
+.my-flex-market_list_content img {
+  padding-top: 5px;
+}
+.my-flex-market_list_content_name {
+  flex-grow: 1;
+}
+.my-flex-market_list_content_name_title {
+  padding-left: 20px;
+  margin-top: -10px;
+}
+.my-flex-market_list_content_name_subtitle {
+  padding-left: 20px;
+  margin-top: -20px;
+  font-size: 13px;
+}
+.my-flex-market_list_content_schedule {
+  flex-grow: 1;
+  text-align: center;
+}
+.my-flex-market_list_content_btn {
+  flex-grow: 1;
+  text-align: center;
+}
+.my-flex-market_list_content_btn_red {
+  background-color: #f00;
+}
+.my-flex-market_list_content_btn button {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 75px;
+  margin-top: 16px;
+  background-color: #21ce99;
+  color: #fff;
+}
+.my-flex-market_list_content_btn button:hover {
+  cursor: pointer;
+  outline: none;
+}
+.my-flex-content {
+  flex-basis: 800px;
+  background-color: #090d16;
+  border-left: 1px solid #fff;
+  height: 706px;
+}
+.my-flex-content_close {
+  height: 35px;
+}
+.my-flex-content_close img {
+  float: right;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.my-flex-content_cash {
+  color: #fff;
+  font-size: 30px;
+}
+.my-flex-content_cash h3 {
+  padding-left: 20px;
+  margin: 0;
+  font-weight: 100;
+}
+.my-flex-content_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  color: #fff;
+}
+.my-flex-content_info_stats {
+  flex-grow: 1;
+  line-height: 0.23;
+}
+.my-flex-content_info_stats p {
+  padding-left: 20px;
+  font-size: 12px;
+  color: #808080;
+}
+.my-flex-content_info_stats span {
+  color: #21ce99;
+}
+.my-flex-content_info_name {
+  flex-grow: 1;
+  line-height: 0.23;
+  text-align: right;
+  padding-right: 20px;
+}
+.my-flex-content_info_name p {
+  font-size: 12px;
+  color: #808080;
+}
+.my-flex-content_info_name span {
+  font-size: 14px;
+  color: #fff;
+}
+.my-flex-content_schedule_img {
+  text-align: center;
+  padding-top: 10px;
+}
+.my-flex-content_schedule_img img {
+  width: 48%;
+}
+.my-flex-content_slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  color: #fff;
+}
+.my-flex-content_slider_day,
+.my-flex-content_slider_week,
+.my-flex-content_slider_month,
+.my-flex-content_slider_months,
+.my-flex-content_slider_year,
+.my-flex-content_slider_all {
+  flex-grow: 1;
+  padding-top: 10px;
+  text-align: center;
+}
+.my-flex-content_slider_day a,
+.my-flex-content_slider_week a,
+.my-flex-content_slider_month a,
+.my-flex-content_slider_months a,
+.my-flex-content_slider_year a,
+.my-flex-content_slider_all a {
+  color: #21ce99;
+  text-decoration: none;
+}
+.my-flex-content_slider_none {
+  flex-grow: 3;
+}
+.my-flex-content_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  color: #fff;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.my-flex-content_information p {
+  font-size: 13px;
+}
+.my-flex-content_information span {
+  color: #808080;
+}
+.my-flex-content_information_stats {
+  flex-grow: 1;
+  padding-left: 50px;
+  line-height: 0.23;
+}
+.my-flex-content_information_stats_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.my-flex-content_information_stats_left {
+  flex-grow: 1;
+  margin-right: 30px;
+}
+.my-flex-content_information_stats_left_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #808080;
+}
+.my-flex-content_information_stats_left_wrapper_l {
+  flex-grow: 1;
+}
+.my-flex-content_information_stats_left_wrapper_r {
+  flex-grow: 1;
+  text-align: right;
+}
+.my-flex-content_information_stats_right {
+  flex-grow: 1;
+}
+.my-flex-content_information_about {
+  flex-grow: 1;
+  padding-left: 80px;
+}
+.my-flex-content_information_about h3 {
+  line-height: 0.23;
+}
+.my-flex-content_information_about_header a {
+  text-decoration: none;
+  color: #21ce99;
+}
+.my-flex-content_information_form {
+  float: right;
+  display: inline-block;
+}
+.my-flex-content_information_form_buttons {
+  justify-content: flex-end;
+  float: right;
+  margin-right: 50px;
+  margin-top: 14px;
+}
+.my-flex-content_information_form_buttons_sell,
+.my-flex-content_information_form_buttons_buy {
+  width: 100px;
+  background-color: #21ce99;
+  border-radius: 5px;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+.my-flex-content_information_form_buttons a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-flex-content_information_form_buttons p {
+  vertical-align: middle;
+  font-size: 17px;
+  margin-top: 10px;
+}
